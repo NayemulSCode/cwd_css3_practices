@@ -14,9 +14,12 @@
             .article{
                 background-color: lightslategray;
                 text-align: center;
+                /* padding: 5px; */
+                border: 2px solid black;
             }
             .article-1{
-                grid-row: 1/span 6;
+                grid-row: 1/span 14;
+                background-color:
             }
             .article-2{
                 grid-column: 2/ span 2;
@@ -24,18 +27,30 @@
             .article-16{
                 grid-column: 1/span 3;
             }
+            .article-3{
+                /* grid-column: 2/ span 2; */
+                /* grid-row: 2/span 4; */
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 12;
+
+            }
         </style>
     </head>
     <body>
         <section class="container">
             <article class="article article-1">
                 <h3>artical-1</h3>
+                <h4>side navbar</h4>
             </article>
             <article class="article article-2">
                 <h3>artical-2</h3>
+                <h4>top navabar</h4>
             </article>
             <article class="article article-3">
                 <h3>artical-3</h3>
+                <h4>main banner</h4>
             </article>
             <article class="article article-4">
                 <h3>artical-4</h3>
@@ -64,17 +79,9 @@
             <article class="article article-12">
                 <h3>artical-12</h3>
             </article>
-            <article class="article article-13">
-                <h3>artical-13</h3>
-            </article>
-            <article class="article article-14">
-                <h3>artical-14</h3>
-            </article>
-            <article class="article article-15">
-                <h3>artical-15</h3>
-            </article>
             <article class="article article-16">
-                <h3>artical-15</h3>
+                <h3>artical-16</h3>
+                <h5>footer</h5>
             </article>
         </section>
     </body>
